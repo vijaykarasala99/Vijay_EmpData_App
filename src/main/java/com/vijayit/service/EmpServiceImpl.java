@@ -35,7 +35,7 @@ public class EmpServiceImpl implements EmpService {
 
 		String subject ="Test Mail Subject";
 		String body ="<h1>VIJAY INFRASTRUCTURE PVT.LTD</h1>";
-		String to ="musunurinavya@gmail.com";
+		String to ="@gmail.com";
 		emailUtils.sendEmail(subject, body, to, f);
 		f.delete();
 		return true;
@@ -49,7 +49,7 @@ public class EmpServiceImpl implements EmpService {
 
 		String subject = "Test Mail Subject";
 		String body = "<h1>VIJAY INFRASTRUCTURE PVT.LTD</h1>";
-		String to = "musunurinavya@gmail.com";
+		String to = "@gmail.com";
 		emailUtils.sendEmail(subject, body, to, f);
 		f.delete();
 		return false;
